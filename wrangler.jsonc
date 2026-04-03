@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "website",
+  "compatibility_date": "2026-04-03",
+  // "main": "./dist/_worker.js/index.js",
+  "assets": {
+    "directory": "./dist",
+    // "not_found_handling": "404-page", // `src/pages/404.astro`
+  },
+}
